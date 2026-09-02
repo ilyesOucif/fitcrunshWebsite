@@ -643,7 +643,6 @@ order: 2;
   height: 36px;
   border-radius: 50%;
   background: var(--color-white);
-  border: 1px solid var(--color-border);
   color: var(--color-text-muted);
   flex-shrink: 0;
   font-size: 0.8rem;
@@ -768,7 +767,8 @@ order: 2;
   .quality { grid-template-columns: 1fr; }
   .nutrition { grid-template-columns: 1fr; }
   .nutrition-content { margin-inline-start: 0; padding: 50px 24px; max-width: none; }
-  .nutrition-image { min-height: 260px; }
+  .nutrition-image { min-height: 260px;
+  order:-2; }
   .why-one { grid-template-columns: 1fr; }
   .testimonial-grid { grid-template-columns: 1fr; }
   .order-grid { grid-template-columns: 1fr; }
