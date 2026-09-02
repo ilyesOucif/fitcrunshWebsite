@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ---------- Quantity stepper + live price ---------- */
-  const BASE_PRICE = 1600;       // price for the 1st kg
+  const BASE_PRICE = 1650;       // price for the 1st kg
   const DISCOUNT_PER_EXTRA = 100; // discount applied to each extra kg
   const MIN_QTY = 1;
   const MAX_QTY = 20;
