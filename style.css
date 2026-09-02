@@ -224,7 +224,7 @@ align-items: center;
    HERO
    ============================================ */
 .hero {
-    background-image:url('assets/wideali.jpeg');
+    background-image:url('assets/verticalali2.jpeg');
   background-size: cover;
   position: relative;
   min-height: 560px;
@@ -233,10 +233,11 @@ align-items: center;
   isolation: isolate;
   direction: ltr; /* content sits left, product visual sits right, per design */
 }
+
 @media (max-width:900px){
   .hero{
-      background-position-y: -65px;
-      background-position-x: -230px;
+      background-position-y: -41px;
+      background-position-x: -41px;
     
   }
   .btn-row{
@@ -254,6 +255,8 @@ align-items: center;
 @media (min-width:900px){
   .hero{
   background-position-y: -120px;
+      background-image: url('assets/wideali.jpeg');
+
     
   }
     .hero-content{

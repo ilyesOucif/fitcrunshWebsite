@@ -37,7 +37,7 @@ exports.handler = async (event) => {
       },
       body: JSON.stringify({
         from: 'Fit Crunch Orders <onboarding@resend.dev>',
-        to: ['anotherm501@gmail.com'], // <-- 👈 PASTE YOUR EMAIL HERE
+        to: ['aliloubach2004@gmail.com'], // <-- 👈 PASTE YOUR EMAIL HERE
         subject: `طلب جديد من ${fullName}`,
         html: `
           <h2>طلب جديد</h2>
